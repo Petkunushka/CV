@@ -1,0 +1,154 @@
+:root {
+  --bg: #1d262d;
+  --text:#F8F0E4;
+  --primary: #004445;
+  --white: #F8F0E4;
+  --accent: #ff5722;
+  --max-width: 1440px;
+  --content-width: 1238px;
+}
+
+#particles-js {
+  position:absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+   background-color: var(--bg);
+   color: var(--text);
+   font-size: 20px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-weight: 400;
+   min-width: 320px;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  line-height: 1.8;
+}
+
+img {
+  display: block;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: var(--bg);
+  z-index: 4;
+}
+
+.page-header__burger {
+  display: none;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content:flex-end;
+}
+
+.site-navigation__link {
+  margin-left: 32px;
+}
+
+.site-navigation__link {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text);
+  padding: 1rem 0;
+  position: relative;
+}
+
+.site-navigation__link::before{
+  position: absolute;
+  display: block;
+  content: "";
+  width: 0;
+  right: 0;
+  height: 3px;
+  bottom: 5px;
+  background-color: var(--accent);
+  transition: width ease-in-out 1s;
+}
+
+.site-navigation__link:hover::before {
+  width: 100%;
+  left: 0;
+  background-color: var(--accent);
+  transition: width ease-in-out 1s;
+}
+
+.about-me {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 68px;
+}
+
+.about-me__img-container {
+  position: relative;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 32px;
+}
+
+.about-me__img-container::before,
+.about-me__img-container::after {
+  content: '';
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.about-me__img-container::before {
+  top: 0;
+  left: 0;
+  transform: translate(6px, 10px);
+  background-color: var(--primary);
+}
+
+.about-me__img-container::after {
+  top: 0;
+  left: 0;
+  transform: translate(-6px, -10px);
+  background-color: var(--accent);
+}
+
+.about-me__img {
+  display: block;
+  width: 225px;
+  height: 225px;
+  border-radius: 50%;
+}
+
