@@ -1,2 +1,2 @@
 # CV
-cv project
+https://petkunushka.github.io/CV/
