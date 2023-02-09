@@ -453,6 +453,70 @@ img {
   box-shadow: inset 0 -30px 0 rgba(50,85,127,0.5), 0 2px 0 rgba(50,85,127,0.5);
 }
 
+@media (min-width: 1000px) {
+  .block-bg {
+    padding: 80px 98px;
+  }
+
+  .hero .contact-links__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    animation: float 2s ease-in-out infinite alternate;
+  }
+  
+  .hero .contact-links__item {
+    top: calc(50% - 20rem);
+    right: 20rem;
+    animation-delay: 0.5s;
+  }
+
+  .hero .contact-links__item {
+    top: calc(50% - 8rem);
+    left: 14rem;
+  }
+  
+  .hero .contact-links__item {
+    top: calc(50% - 4rem);
+    right: 10rem;
+    animation-direction: alternate-reverse;
+  }
+
+  .hero .contact-links__link {
+    border-width: 20px;
+    transition: border 0.3s ease-in-out;
+  }
+
+  .hero .contact-links__link {
+    border-radius: 50%;
+    border-color: var(--github-bg);
+    transform: translateX(50%) translateY(-50%);
+  }
+  
+  .hero .contact-links__link {
+    border-radius: 50%;
+    border-color: var(--linkedin-bg);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .hero .contact-links__link {
+    border-radius: 50%;
+    border-color: var(--codepen-bg);
+    transform: translateX(50%) translateY(-50%);
+  }
+
+  .hero .contact-links__link:hover {
+    border-width: 40px;
+    transition: border 0.3s ease-in-out;
+  }
+
+  .projects__item {
+    margin-bottom: 136px;
+  }
+}
+
+
 @media (max-width: 1000px) {
   body.lock {
     overflow: hidden;
@@ -518,10 +582,6 @@ img {
 
 .site-navigation__link {
   margin-left: 0;
-}
-
-.theme-toggle {
-  z-index: 2;
 }
 
 .page-header__burger {
