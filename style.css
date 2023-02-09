@@ -124,8 +124,8 @@ img {
 }
 
 .hero {
+  display: block;
   max-width: 100%;
-  display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
@@ -145,7 +145,6 @@ img {
   display: flex;
   padding-top: 20px;
   padding-bottom: 20px;
-  max-width: 630px;
 }
 
 .hero_pic {
