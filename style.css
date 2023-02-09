@@ -15,7 +15,6 @@
   width: 100%;
 }
 
-
 * {
   margin: 0;
   padding: 0;
@@ -727,7 +726,37 @@ img {
   }
 }
 
+@media (max-width: 500px) {
+  .wrapper {
+    padding: 0;
+  }
 
+  .container {
+    padding: 0 1rem;
+    margin-bottom: 32px;
+  }
+
+  .block-bg {
+    padding: 2rem 1rem;
+  }
+
+  .block-bg--thin {
+    width: 100%;
+  }
+
+  .title {
+    margin-bottom: 24px;
+  }
+
+  .skills__list {
+    display: block;
+    columns: 2;
+  }
+
+  .skills__item {
+    margin-bottom: 12px;
+
+  } }
 
 @-webkit-keyframes neon1 {
   from {
