@@ -83,10 +83,6 @@ img {
   padding: 0 42px;
 }
 
-.page-header__burger {
-  display: none;
-}
-
 .site-navigation {
   display: flex;
   justify-content:flex-end;
