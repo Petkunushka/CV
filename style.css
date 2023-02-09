@@ -149,6 +149,7 @@ img {
 }
 
 .hero_pic {
+  display: flex;
   position: absolute;
   top: 10%;
   right: 0;
@@ -158,6 +159,7 @@ img {
 }
 
 .content {
+  display: block;
   position: absolute;
   top: 50%;
   left: 8%;
@@ -398,6 +400,7 @@ img {
   flex-direction: column;
   justify-content: center;
   padding-top: 160px;
+  margin-bottom: 30px;
 }
 
 .page-footer__inner {
@@ -426,17 +429,6 @@ img {
 .page-footer .contact-links__link:hover {
   color: var(--accent);
   transition: color 0.3s ease-in-out;
-}
-
-
-.rsschool path{
-  fill: var(--text);
-  transition: fill 0.3s ease-in-out;
-}
-
-.rsschool:hover path {
-  fill: var(--accent);
-  transition: fill 0.3s ease-in-out;
 }
 
 .etc {
