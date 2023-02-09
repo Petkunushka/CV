@@ -123,6 +123,13 @@ img {
   transition: width ease-in-out 1s;
 }
 
+.hero {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .hero_container {
   display: flex;
 }
