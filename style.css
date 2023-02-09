@@ -132,7 +132,9 @@ img {
 }
 
 .hero_container {
-  display: flex;
+  display: inline-grid;
+  grid-template-columns: repeat(2, auto);
+  
 }
 
 .hero_left {
