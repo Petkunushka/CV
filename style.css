@@ -155,7 +155,7 @@ img {
 }
 
 .info {
-  position: absolute;
+  position: relative;
   margin-left: 60px;
   margin-right: 60px;
 }
