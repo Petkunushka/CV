@@ -125,6 +125,7 @@ img {
 
 .hero {
   display: inline-block;
+  position: static;
   max-width: 100%;
   justify-content: center;
   text-align: center;
