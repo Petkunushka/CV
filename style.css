@@ -154,13 +154,6 @@ img {
   text-align: center;
 }
 
-.info {
-  position: absolute;
-  display: flex;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
 .about_me {
   position: relative;
   width: 100%;
