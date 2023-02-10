@@ -124,8 +124,7 @@ img {
 }
 
 .hero {
-  display: inline-block;
-  position: static;
+  display: block;
   max-width: 100%;
   justify-content: center;
   text-align: center;
@@ -155,12 +154,14 @@ img {
 }
 
 .info {
+  position: absolute;
   display: flex;
   margin-left: 60px;
   margin-right: 60px;
 }
 
 .about_me {
+  position: relative;
   width: 100%;
   padding-top: 400px;
   padding-bottom: 160px;
