@@ -153,6 +153,7 @@ img {
 }
 
 .info {
+  max-width: 1374px;
   position: absolute;
   display: flex;
   margin-left: 60px;
