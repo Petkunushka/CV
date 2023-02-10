@@ -131,12 +131,6 @@ img {
   align-items: center;
 }
 
-.hero_container {
-  display: inline-grid;
-  grid-template-columns: repeat(2, auto);
-  max-width: fit-content;
-}
-
 .hero_pic {
   display: flex;
   position: absolute;
