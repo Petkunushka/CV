@@ -137,17 +137,6 @@ img {
   
 }
 
-.hero_left {
-  display: flex;
-  top: 15%;
-}
-
-.hero_right {
-  display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .hero_pic {
   display: flex;
   position: absolute;
