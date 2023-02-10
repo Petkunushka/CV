@@ -79,7 +79,7 @@ img {
 }
 
 .container {
-  max-width: 1374px;
+  width: 100%;
   padding: 0 42px;
 }
 
@@ -124,7 +124,7 @@ img {
 }
 
 .hero {
-  display: block;
+  display: flex;
   max-width: 100%;
   justify-content: center;
   text-align: center;
@@ -139,11 +139,9 @@ img {
 }
 
 .content {
-  align-items: center;
   position: absolute;
-  top: 50%;
-  left: 8%;
-  transform: translateY(-50%);
+  top: 320px;
+  margin-left: 100px;
 }
 
 .container_about {
@@ -154,12 +152,11 @@ img {
 }
 
 .info {
-  position: absolute;
   display: flex;
+  width: 100%;
 }
 
 .about_me {
-  position: relative;
   width: 100%;
   padding-top: 400px;
   padding-bottom: 160px;
@@ -204,28 +201,24 @@ img {
 
 .skills__item {
   position: relative;
-  width: fit-content;
   justify-content: center;
   text-align: center;
-  margin-left: 30%;
   gap: 150px;
 }
 
 .features_list {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
+  position: relative;
+  width: 100%;
+  display: inline-grid;
+  grid-template-columns: repeat(3, 300px);
   gap: 170px;
   padding-top: 50px;
-  text-align: center;
-  justify-content: center;
   font-size: 50px;
   font-weight: 700;
   cursor: pointer;
 }
 
 .css {
-  text-align: center;
-  justify-content: center;
   text-transform: uppercase;
   line-height: 1;
   -webkit-transition: all 0.5s ease;
@@ -240,7 +233,6 @@ img {
 }
 
 .js {
-  text-align: end;
   text-transform: uppercase;
   line-height: 1;
   -webkit-transition: all 0.5s ease;
@@ -255,7 +247,6 @@ img {
 }
 
 .html {
-  text-align: start;
   text-transform: uppercase;
   line-height: 1;
   -webkit-transition: all 0.5s ease;
