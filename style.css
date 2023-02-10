@@ -156,8 +156,6 @@ img {
 .info {
   position: absolute;
   display: flex;
-  margin-left: 60px;
-  margin-right: 60px;
 }
 
 .about_me {
