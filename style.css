@@ -79,8 +79,8 @@ img {
 }
 
 .container {
-  width: 100%;
-  padding: 0 42px;
+  max-width: var(--content-width);
+  margin: 0 auto;
 }
 
 .site-navigation {
@@ -125,9 +125,9 @@ img {
 
 .hero {
   display: flex;
+  flex-direction: column;
   max-width: 100%;
   justify-content: center;
-  text-align: center;
   align-items: center;
 }
 
@@ -140,8 +140,9 @@ img {
 
 .content {
   position: absolute;
-  top: 320px;
-  margin-left: 100px;
+  top: 50%;
+  left: 8%;
+  transform: translateY(-50%);
 }
 
 .container_about {
