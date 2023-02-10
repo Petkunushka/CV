@@ -79,8 +79,8 @@ img {
 }
 
 .container {
-  max-width: var(--content-width);
-  margin: 0 auto;
+  max-width: 1374px;
+  padding: 0 42px;
 }
 
 .site-navigation {
