@@ -79,8 +79,9 @@ img {
 }
 
 .container {
-  max-width: 1374px;
-  padding: 0 42px;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  margin-bottom: 68px;
 }
 
 .site-navigation {
@@ -123,37 +124,30 @@ img {
   transition: width ease-in-out 1s;
 }
 
-.hero_pic {
+.hero {
   display: flex;
-  position: absolute;
-  float: right;
-  top: 10%;
-  right: 0;
+  position: relative;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin: 0;
+}
+
+.hero_pic {
+  padding-top: 5%;
+  position: relative;
+  margin-top: auto;
 }
 
 .content {
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 8%;
-  transform: translateY(-50%);
-}
-
-.container_about {
-  display: flex;
-  margin-top: 550px;
-  justify-content: center;
+  position: relative;
   text-align: center;
-}
-
-.info {
-  display: flex;
+  align-items: center;
 }
 
 .about_me {
   position: relative;
   width: 100%;
-  padding-top: 400px;
+  padding-top: 40px;
   padding-bottom: 160px;
   font-family: 'Mochiy Pop One', sans-serif ;
   text-align: left;
@@ -162,7 +156,6 @@ img {
 }
 
 .about_me_text {
-  margin-top: 600px;
   text-align: center;
   justify-content: center;
   padding-bottom: 10px;
@@ -175,37 +168,30 @@ img {
 }
 
 .skills {
-  display: block;
   position: relative;
   width: 100%;
-  justify-content: center;
-  text-align: center;
   font-family: 'Mochiy Pop One', sans-serif ;
 }
 
 .skills__list {
-  display: inline-grid;
+  display: grid;
   grid-template-columns: repeat(5, auto);
   grid-template-rows: repeat(3, 50px);
   gap: 28px;
   width: 100%;
+  justify-content: space-between;
+  text-align: center;
   font-family: 'Mochiy Pop One', sans-serif;
   color: rgb(50,85,127);
   padding-top: 60px;
 }
 
 
-.skills__item {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  gap: 150px;
-}
-
 .features_list {
   display: grid;
   grid-template-columns: repeat(3, 300px);
-  gap: 170px;
+  justify-content: space-between;
+  text-align: center;
   padding-top: 50px;
   font-size: 50px;
   font-weight: 700;
