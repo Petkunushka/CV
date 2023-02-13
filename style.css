@@ -79,9 +79,7 @@ img {
 }
 
 .container {
-  max-width: var(--content-width);
-  margin: 0 auto;
-  margin-bottom: 68px;
+  margin: 2%;
 }
 
 .site-navigation {
@@ -127,21 +125,23 @@ img {
 .hero {
   display: flex;
   position: relative;
+  width: 100%;
   align-items: center;
   flex-direction: row-reverse;
-  margin: 0;
 }
 
 .hero_pic {
-  padding-top: 5%;
+  padding-top: 3%;
   position: relative;
   margin-top: auto;
+  justify-content: flex-end;
 }
 
 .content {
   position: relative;
   text-align: center;
   align-items: center;
+  padding-right: 10%;
 }
 
 .about_me {
@@ -150,7 +150,6 @@ img {
   padding-top: 40px;
   padding-bottom: 160px;
   font-family: 'Mochiy Pop One', sans-serif ;
-  text-align: left;
   justify-content: center;
   text-align: center;
 }
@@ -168,7 +167,6 @@ img {
 }
 
 .skills {
-  position: relative;
   width: 100%;
   font-family: 'Mochiy Pop One', sans-serif ;
 }
@@ -180,7 +178,6 @@ img {
   gap: 28px;
   width: 100%;
   justify-content: space-between;
-  text-align: center;
   font-family: 'Mochiy Pop One', sans-serif;
   color: rgb(50,85,127);
   padding-top: 60px;
@@ -189,9 +186,8 @@ img {
 
 .features_list {
   display: grid;
-  grid-template-columns: repeat(3, 300px);
-  justify-content: space-between;
   text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
   padding-top: 50px;
   font-size: 50px;
   font-weight: 700;
