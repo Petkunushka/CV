@@ -124,6 +124,7 @@ img {
 }
 
 .hero_pic {
+  display: flex;
   position: absolute;
   float: right;
   top: 10%;
@@ -131,6 +132,7 @@ img {
 }
 
 .content {
+  display: block;
   position: absolute;
   top: 50%;
   left: 8%;
@@ -173,6 +175,7 @@ img {
 }
 
 .skills {
+  display: block;
   position: relative;
   width: 100%;
   justify-content: center;
