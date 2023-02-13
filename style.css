@@ -133,6 +133,7 @@ img {
 
 .hero_pic {
   position: absolute;
+  float: right;
   top: 10%;
   right: 0;
 }
