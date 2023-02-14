@@ -468,6 +468,7 @@ img {
       .container {
         padding: 0 1rem;
         margin-bottom: 32px;
+        padding-bottom: 32px;
         align-items: center;
         text-align: center;
       }
@@ -475,6 +476,7 @@ img {
       .features_list {
         display: block;
         columns: 1;
+        margin-bottom: 24px;
       }
 
       .title {
