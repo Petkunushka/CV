@@ -415,7 +415,8 @@ img {
                0 0 40px #5265f6,
                0 0 50px #5265f6,
                0 0 75px #5265f6;
-  }     
+  }
+}  
 
   @media (max-width: 1000px) {
 
@@ -447,7 +448,8 @@ img {
       width: 100%;
       transform: translateX(100%);
       transition: transform 0.5s ease-in-out;
-    } }
+    } 
+  }
 
     @media (max-width: 500px) {
     
