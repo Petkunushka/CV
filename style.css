@@ -451,6 +451,38 @@ img {
     } 
   }
 
+    @media (max-width: 992px) {
+
+      .hero {
+        flex-direction: column;
+      }
+
+      .content {
+        max-width: 33.333333%;
+        order: 2;
+      }
+      .hero_pic {
+        max-width: 66.666667%;
+        order: 1;
+      }
+    }
+
+    @media (max-width: 800px) {
+      
+      .education__item {
+        display: flex;
+        flex-direction: column;
+      }
+    
+      .education__title {
+        font-size: 24px;
+      }
+    
+      .education__degree {
+        font-size: 20px;
+      }
+    }
+
     @media (max-width: 500px) {
     
       .container {
@@ -472,4 +504,4 @@ img {
       }
     }
 
-}
+  
