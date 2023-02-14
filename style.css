@@ -440,6 +440,7 @@ img {
         order: 2;
         align-items: center;
         text-align: center;
+        padding-bottom: 24px;
       }
       .hero_pic {
         max-width: 66.666667%;
@@ -476,7 +477,7 @@ img {
       .features_list {
         display: block;
         columns: 1;
-        margin-bottom: 24px;
+        line-height: 5px;
       }
 
       .title {
