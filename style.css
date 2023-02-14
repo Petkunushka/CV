@@ -438,12 +438,6 @@ img {
       overflow: auto;
     }
   
-    .site-navigation {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  
     .site-navigation__item {
       width: 100%;
       transform: translateX(100%);
@@ -454,12 +448,16 @@ img {
     @media (max-width: 992px) {
 
       .hero {
-        flex-direction: column;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
       }
 
       .content {
         max-width: 33.333333%;
         order: 2;
+        align-items: center;
+        text-align: center;
       }
       .hero_pic {
         max-width: 66.666667%;
@@ -468,7 +466,7 @@ img {
     }
 
     @media (max-width: 800px) {
-      
+
       .education__item {
         display: flex;
         flex-direction: column;
@@ -488,6 +486,13 @@ img {
       .container {
         padding: 0 1rem;
         margin-bottom: 32px;
+        align-items: center;
+        text-align: center;
+      }
+
+      .features_list {
+        display: block;
+        columns: 1;
       }
 
       .title {
