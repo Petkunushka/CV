@@ -427,27 +427,6 @@ img {
     } 
   }
 
-    @media (max-width: 992px) {
-
-      .hero {
-       flex-direction: column;
-       align-items: center;
-       text-align: center;
-      }
-
-      .content {
-        max-width: 33.333333%;
-        order: 2;
-        align-items: center;
-        text-align: center;
-        padding-bottom: 24px;
-      }
-      .hero_pic {
-        max-width: 66.666667%;
-        order: 1;
-      }
-    }
-
     @media (max-width: 800px) {
 
       .education__item {
